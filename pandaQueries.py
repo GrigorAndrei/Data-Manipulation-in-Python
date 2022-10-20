@@ -10,5 +10,5 @@ print("All males in the file")
 print(set.query('sex==1'))
 
 print("\n")
-print("All people over 45 years old")
+print("List of all people over 45 years old is saved in QueriesOutput\AllOver45.xlsx")
 set.query('age>45').to_excel("QueriesOutput\AllOver45.xlsx")
