@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 
-file = "P87-S2-Dataset-Basics-Resources\heart.csv"
+file = "Datasets\Astronauts.csv"
 
 # load file using pandas
 set = pd.read_csv(file)
